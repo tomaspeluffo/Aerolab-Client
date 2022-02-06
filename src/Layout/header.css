@@ -1,0 +1,49 @@
+.navbar {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+  height: 3.9rem;
+  background-color: #ffffff;
+  transition: ease;
+}
+
+.nav-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  width: 29px;
+}
+
+.badge {
+  font-size: 0.5rem;
+  font-weight: 900;
+  position: absolute;
+  border: solid #006de3;
+  border-radius: 50%;
+  height: 0.8rem;
+  width: 0.8rem;
+  background: #006de3;
+  color: #ffffff;
+  margin-left: -0.5rem;
+  margin-top: -0.2rem;
+  text-align: center;
+  display: inline-block;
+  line-height: 0.8rem;
+  cursor: pointer;
+}
+.alret-container {
+  display: flex;
+  align-items: center;
+}
+
+.alret-container span {
+  content: "\26A0";
+  color: red;
+  font-size: 25px;
+  cursor: pointer;
+}
+.alret-container p {
+  color: red;
+}

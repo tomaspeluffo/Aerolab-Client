@@ -1,0 +1,16 @@
+.load-more-button {
+  background: #0070e0;
+  border-radius: 3px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.load-more-container {
+  width: 100%;
+}
+
+.load-more-button:disabled {
+  background-color: red;
+  cursor: inherit;
+}

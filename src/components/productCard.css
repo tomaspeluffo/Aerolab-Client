@@ -1,0 +1,42 @@
+.card {
+  border-radius: 3px;
+  background-color: #ffff;
+  width: 10.3rem;
+  height: 18.7rem;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.card-image-container img {
+  max-width: 90%;
+}
+
+.add-to-cart {
+  color: #0070e0;
+  text-align: center;
+  border: 1px solid #0070e0;
+  border-radius: 3px;
+  background-color: #ffff;
+  cursor: pointer;
+}
+
+.sum-icons {
+  width: 2rem;
+  height: 2rem;
+}
+
+.add-products-container {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.sum-icons {
+  cursor: pointer;
+}
+
+.add-products-container input {
+  max-width: 3.3rem;
+  border: none;
+  text-align: center;
+  height: 2rem;
+  font-size: 1rem;
+}
